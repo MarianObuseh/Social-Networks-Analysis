@@ -1,2 +1,2 @@
-# Social-Networks-Analysis
-Here, I share all social nets I analyzed with networkx - including but not limited to Wikipedia, Facebook, Twitter datasets.
+# Wikipedia Graph Analysis
+Here, I use networkx to retrieve 2 pages - "Aqualung" and "Ian Anderson" (Classic Rock, good stuff!) from Wikipedia. I then compare them using graph analysis by running separate searches. Each search is limited to 2 “layers” deep in terms of traversing their links. Each breadth-first-search (BFS) is also further limited to no more than 50 iterations. Also, each graph built is also  cut down to only include nodes that have degree ≥ 2 and self-loops are discarded. I'm tryna triage my search. I then perform some analysis to compare and contrast both graphs.
